@@ -1,0 +1,18 @@
+{
+  "name": "hex2bin_chunked",
+  "version": "1.0.0",
+  "description": "Convert an ASCII hex string to binary (or optionally base64)",
+  "main": "hex2bin_chunked.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Dave Weissman",
+  "license": "MIT",
+  "dependencies": {
+    "btoa": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}
